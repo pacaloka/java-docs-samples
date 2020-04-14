@@ -62,7 +62,7 @@ public class InfiniteStreamRecognize {
   private static int finalRequestEndTime = 0;
   private static boolean newStream = true;
   private static double bridgingOffset = 0;
-  private static boolean lastTranscriptWasFinal = false;
+  private static boolean lastTranscriptWasFinal = true;
   private static StreamController referenceToStreamController;
   private static ByteString tempByteString;
 
